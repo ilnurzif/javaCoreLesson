@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="272.0" prefWidth="553.0" stylesheets="sample/stylesheet.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <TextArea fx:id="mainArea" editable="false" prefHeight="229.0" prefWidth="454.0" VBox.vgrow="ALWAYS">
+        <font>
+            <Font name="Arial" size="18.0" />
+        </font>
+    </TextArea>
+   <ToolBar prefHeight="43.0" prefWidth="489.0">
+     <items>
+         <TextField  fx:id="msgField" onAction="#sendMsgAction" prefHeight="33.0" prefWidth="213.0" promptText="Введите сообщение...">
+             <font>
+                 <Font name="Arial" size="18.0" />
+             </font>
+         </TextField>
+       <Button alignment="CENTER_RIGHT" styleClass="button" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#sendMsgAction"  text="Send" />
+     </items>
+   </ToolBar>
+</VBox>
