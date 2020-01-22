@@ -1,0 +1,8 @@
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<VBox fx:controller="Controller" xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <TextArea fx:id="textArea" VBox.vgrow="ALWAYS" editable="false" />
+    <TextField fx:id="msgField" onAction="#sendMsg" />
+</VBox>
