@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="Controller">
+    <HBox fx:id="loginBox">
+        <TextField fx:id="loginField" HBox.hgrow="ALWAYS" />
+        <PasswordField fx:id="passField" HBox.hgrow="ALWAYS" />
+        <Button onAction="#tryToAuth" text="Войти" HBox.hgrow="ALWAYS" />
+    </HBox>
+    <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS" />
+    <HBox fx:id="userList">
+      <TextField fx:id="msgField" onAction="#sendMsg" HBox.hgrow="ALWAYS" />
+      <ComboBox fx:id="usrListComboBox" prefWidth="150.0" />
+    </HBox>
+</VBox>
