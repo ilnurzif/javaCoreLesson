@@ -43,6 +43,10 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        setAuthenticated(false);
+    }
+
+    public void connect() {
         try {
             setAuthenticated(false);
             network = new Network(8189);
@@ -82,7 +86,8 @@ public class Controller implements Initializable {
             t.setDaemon(true);
             t.start();
         } catch (IOException e) {
-            throw new RuntimeException("Невозможно подключиться к серверу");
+            Alert alert = new Alert(Alert.AlertType.WARNING, "Невозможно подключиться к серверу", ButtonType.OK);
+            alert.showAndWait();
         }
     }
 
@@ -96,8 +101,6 @@ public class Controller implements Initializable {
         ObservableList<String> users = FXCollections.observableArrayList(subStr);
         usrListComboBox.setItems(users);
         usrListComboBox.getSelectionModel().selectFirst();
-        // Почему то не срабатывает установка ComboBox значения первого элемента
-        //usrListComboBox.setValue("All"); тоже не помог
     }
 
     public void sendMsg(ActionEvent actionEvent) {
@@ -115,6 +118,9 @@ public class Controller implements Initializable {
 
     public void tryToAuth(ActionEvent actionEvent) {
         try {
+            if (network!=null && network.isConnected())
+              return;
+            connect();
             network.sendMsg("/auth " + loginField.getText() + " " + passField.getText());
             loginField.clear();
             passField.clear();

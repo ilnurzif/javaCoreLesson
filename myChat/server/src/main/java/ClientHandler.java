@@ -1,3 +1,5 @@
+import javafx.scene.chart.ScatterChart;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -12,6 +14,11 @@ public class ClientHandler {
 
     public String getNickname() {
         return nickname;
+    }
+
+    private void setNickname(String msg) throws IOException {
+        this.nickname=msg.split(" ")[1];
+        server.broadcastMsg("/userlistupdate!" + server.getUserList());
     }
 
     public ClientHandler(Server server, Socket socket) throws IOException {
@@ -50,6 +57,10 @@ public class ClientHandler {
                         if (msg.equals("/end")) {
                             sendMsg("/end_confirm");
                             break;
+                        }
+                        if (msg.startsWith("/change_nick")) {
+                            setNickname(msg);
+                            continue;
                         }
                     } else {
                         Msg uMsg = new Msg(msg);
