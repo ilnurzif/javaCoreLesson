@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86d8ea01-1ea9-4c08-91df-988db395f818" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y1v8FdJ6t2aSUafI0ik8hasL9c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RunManager">
+    <configuration name="less5Proj" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.lessons.less5.Lesson5Main" />
+      <module name="less5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86d8ea01-1ea9-4c08-91df-988db395f818" name="Default Changelist" comment="" />
+      <created>1582122753023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582122753023</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582123067698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="498" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582123067698" />
+    <state width="1877" height="607" key="GridCell.Tab.0.bottom" timestamp="1582186933968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="607" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582186933968" />
+    <state width="1877" height="607" key="GridCell.Tab.0.center" timestamp="1582186933968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="607" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582186933968" />
+    <state width="1877" height="607" key="GridCell.Tab.0.left" timestamp="1582186933967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="607" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582186933967" />
+    <state width="1877" height="607" key="GridCell.Tab.0.right" timestamp="1582186933968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="607" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582186933968" />
+    <state width="1877" height="447" key="GridCell.Tab.1.bottom" timestamp="1582184618077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="447" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582184618077" />
+    <state width="1877" height="447" key="GridCell.Tab.1.center" timestamp="1582184618077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="447" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582184618077" />
+    <state width="1877" height="447" key="GridCell.Tab.1.left" timestamp="1582184618076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="447" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582184618076" />
+    <state width="1877" height="447" key="GridCell.Tab.1.right" timestamp="1582184618077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="447" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582184618077" />
+    <state x="775" y="453" key="ReplaceDuplicatesPrompt" timestamp="1582183483103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="453" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1582183483103" />
+    <state x="690" y="275" width="540" height="499" key="extract.method.dialog" timestamp="1582183477430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" width="540" height="499" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582183477430" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/less5$less5Proj.ic" NAME="less5Proj Coverage Results" MODIFIED="1582125224211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
